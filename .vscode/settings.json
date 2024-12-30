@@ -1,0 +1,18 @@
+{
+    // Don't delete or add in .gitignore
+    // For vs code workflow
+
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    //"typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+    //"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    
+    // Comma
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+}

@@ -1,0 +1,36 @@
+{
+  "name": "multi-cloud-manager",
+  "productName": "multi-cloud-manager",
+  "version": "0.0.1",
+  "description": "soon",
+  "main": "src/js/index.js",
+
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build": "tsc"
+  },
+
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "electron": "33.2.1"
+  },
+
+  "keywords": [],
+
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "typescript": "^5.7.2"
+  }
+}
